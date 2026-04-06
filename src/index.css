@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+form,
+label,
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+#root {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  width: 40vw;
+  border-bottom: 3px solid rgba(189, 188, 188, 0.397);
+  padding-bottom: 1ch;
+}
+
+header nav {
+  display: flex;
+  gap: 1ch;
+}
+
+a {
+  color: rgb(8, 38, 209);
+  text-decoration: none;
+}
+
+a:hover,
+a.active {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+ul,
+ol {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 40vw;
+  padding: 1rem;
+  margin-bottom: 2ch;
+  background-color: rgba(189, 188, 188, 0.397);
+}
+
+p[role="alert"] {
+  color: red;
+}
+
+img {
+  height: 10vh;
+  padding-right: 1rem;
+}
+
+section {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 40vw;
+  padding: 1rem;
+  margin-bottom: 2ch;
+  background-color: rgba(189, 188, 188, 0.397);
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
